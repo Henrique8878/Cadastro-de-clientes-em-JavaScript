@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br
+">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+
+    <div id="title">
+        <h1>Cadastro de clientes</h1>
+    </div>
+    <div id="container">
+        <button id="btn_cadastrar">Cadastrar Cliente</button>
+        <div id="container_cadastro">
+            <div id="nome" class="div_cadastro">Nome</div>
+            <div id="email" class="div_cadastro">E-mail</div>
+            <div id="celular" class="div_cadastro">Celular</div>
+            <div id="cidade" class="div_cadastro">Cidade</div>
+            <div id="acao" class="div_cadastro">Ação</div>
+            
+        </div>
+    </div>
+    <div id="cadastro">
+        <header>
+            <h4>Novo cliente</h4>
+        </header>
+        <input type="text" placeholder="Nome do cliente" id="inp_nome">
+        <input type="text" placeholder="Formato celular 55(11)951482377" id="inp_numero">
+        <input type="text" placeholder="E-mail do cliente" id="inp_email">
+        <input type="text" placeholder="Cidade do cliente" id="inp_cidade">
+       
+        <div id="btns_cadastro">
+            <button id="btn_salvar">Salvar</button>
+            <button id="btn_cancelar">Cancelar</button>
+        </div>
+    </div>
+
+    <footer id="rodape">
+        <div id="div_editar" class="div_editar">
+            <div id="title_editar">
+                <h4 >Editar cadastro</h4>
+            </div>
+            <label for="altera_input_nome">Nome</label>
+            <input type="text" class="input_editar" id="altera_input_nome">
+            <label for="altera_input_email">E-mail</label>
+            <input type="text" class="input_editar" id="altera_input_email">
+            <label for="altera_input_numero">Número</label>
+            <input type="text" class="input_editar" id="altera_input_numero">
+            <label for="altera_input_cidade">Cidade</label>
+            <input type="text" class="input_editar" id="altera_input_cidade">
+
+            <div id="btns_editar">
+                <button id="btn_salvar_editar">Salvar</button>
+                <button id="btn_cancelar_editar">Cancelar</button>
+            </div>
+        </div>
+    </footer>
+    <script src="js/cadastro.js"></script>
+    </body>
+</html>

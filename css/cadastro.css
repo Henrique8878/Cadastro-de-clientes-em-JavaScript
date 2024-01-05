@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#container_cadastro{
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  padding-bottom: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
+  flex-wrap: wrap;
+    
+}
+
+#btn_cadastrar{
+    margin-left: 5%;
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
+    padding-left: 0.3%;
+    padding-right: 0.3%;
+    background-color: white;
+    margin-top: 3%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgb(95, 95, 95);
+    border-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#btn_cadastrar:hover{
+   opacity: 0.6;
+}
+#title{
+    background-color: rgb(118, 248, 118);
+    width: 100%;
+    letter-spacing: 1px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  
+    box-shadow: 1px 1px 4px rgb(95, 95, 95);
+}
+
+h1{
+    text-align: center;
+}
+
+#container{
+    border: 1px solid  white;
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 1px 2px 4px rgb(95, 95, 95);
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.div_cadastro{
+    
+    margin-top: 1.80%;
+    border: 1px solid  rgb(118, 248, 118);
+   width: 14%;
+    margin-left: 0.3%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: rgb(118, 248, 118);
+    box-shadow: 1px 1px 3px rgb(95, 95, 95);
+    font-weight: bold;
+}
+#email{
+    width: 35%;
+}
+
+.iguala_email{
+    width: 36.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    margin-top: 1.80%;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px rgb(95, 95, 95);
+    border-top: none;
+ 
+    margin-left: 0.3%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.cadastro_finalizado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    margin-top: 1.80%;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px rgb(95, 95, 95);
+    border-top: none;
+    width: 15%;
+    margin-left: 0.3%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.div_pai{
+    display: flex;
+   width: 96%;
+   
+    margin-left: 3%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}  
+
+#cadastro{
+    position: absolute;
+    border: 1px solid  white;
+    border-radius: 5px;
+    width: 60%;
+    box-shadow: 1px 2px 4px rgb(95, 95, 95);
+    margin-top: 5%;
+    padding-bottom: 1.8%;
+    background-color: white;
+    display: none;
+    
+}
+
+.cadastro{
+    position: absolute;
+    border: 1px solid  white;
+    border-radius: 5px;
+    width: 60%;
+    box-shadow: 1px 2px 4px rgb(95, 95, 95);
+    margin-top: 5%;
+    padding-bottom: 1.8%;
+    background-color: white;
+    display: block;
+    
+}
+
+.cadastro input{
+    margin-left: 3%;
+    margin-top: 5%;
+    height: 20px;
+    width: 44%;
+}
+
+#cadastro input{
+    margin-left: 3%;
+    margin-top: 5%;
+    height: 20px;
+    width: 44%;
+}
+
+header{
+    background-color: rgb(118, 248, 118);
+    width: 100%;
+    letter-spacing: 1px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  
+    box-shadow: 1px 1px 4px rgb(95, 95, 95);
+    text-align: center;
+}
+
+#btns_cadastro{
+   display: flex;
+   justify-content: end;
+}
+
+#btns_cadastro button{
+    margin-right: 3%;
+    margin-top: 3%;
+    padding: 1%;
+}
+
+#btn_salvar{
+    background-color: rgb(118, 248, 118);
+    border-color:rgb(118, 248, 118) ;
+    box-shadow: 1px 1px 4px rgb(95, 95, 95);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+#btn_salvar:hover{
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+#btn_cancelar{
+    background-color:rgb(247, 97, 97);
+    border-color:rgb(247, 97, 97) ;
+    box-shadow: 1px 1px 4px rgb(95, 95, 95);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+#btn_cancelar:hover{
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+#btn_editar{
+    cursor: pointer;
+   padding: 2%;
+   margin-right: 4%;
+   font-weight: bold;
+   background-color: rgb(113, 113, 243);
+   border-color: rgb(113, 113, 243);
+}
+
+#btn_editar:hover{
+    letter-spacing: 1px;
+    opacity: 0.7;
+}
+
+#btn_excluir{
+    cursor: pointer;
+    padding: 2%;
+    font-weight: bold;
+    background-color: rgb(241, 109, 109);
+    border-color: rgb(241, 109, 109); ;
+    
+}
+
+#btn_excluir:hover{
+    letter-spacing: 1px;
+    opacity: 0.7;
+}
+
+
+.div_editar{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid  rgb(118, 248, 118);
+    margin-top: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 20vw;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgb(95, 95, 95);
+    margin-bottom: 10%;
+    background-color: rgb(118, 248, 118);
+    visibility:hidden;
+}
+
+.div_editar1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid  rgb(118, 248, 118);
+    margin-top: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 20vw;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgb(95, 95, 95);
+    margin-bottom: 10%;
+    background-color: rgb(118, 248, 118);
+    visibility:visible;
+}
+
+#title_editar{
+text-align: center;
+letter-spacing: 1px;
+}
+
+.input_editar{
+    margin-top: 1%;
+    margin-right: 4%;
+    margin-left: 4%;
+    
+}
+
+#btns_editar{
+margin-top: 5%;
+padding-left: 4%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+
+#btn_salvar_editar{
+    cursor: pointer;
+    font-size: 0.75em;
+    margin-right: 5%;
+   
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgb(95, 95, 95);
+    border-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+}
+#btn_salvar_editar:hover{
+    letter-spacing: 1px;
+}
+
+#btn_cancelar_editar{
+    cursor: pointer;
+    font-size: 0.75em;
+    margin-right: 5%;
+   
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgb(95, 95, 95);
+    border-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#btn_cancelar_editar:hover{
+    letter-spacing: 1px;
+}
+
+#rodape label{
+    margin-left: 5%;
+    margin-top: 4%;
+    font-weight: bold;
+    
+}
